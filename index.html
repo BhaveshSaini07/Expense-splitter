@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense spilitter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Expense-Splitter</h1>
+    <main>
+        <div class="person-info card">
+            <input type="text" id="personName" placeholder="Enter name">
+             <button class="btn add-person">Add Person</button>
+        </div>
+        <div class="food-info card">
+            <input type="text" id="foodName" placeholder="Food Name">
+            <input type="text" id="foodAmount" placeholder="Food Amount">
+            <select id="paidBy">Select</select>
+            <button class="btn add-expense"> Add Expense</button>
+        </div>
+        <div class="expense">
+            <button class="btn calculate">Calculate</button>
+            <button class="btn reset">New Calculation</button>
+        </div>
+        <div class="list">
+            <ul id="expense-list"></ul>
+            <ul id="people-list"></ul>
+        </div>
+        <div class="container result">
+
+        </div>
+    </main>
+<script src="app.js"></script>
+</body>
+</html>
